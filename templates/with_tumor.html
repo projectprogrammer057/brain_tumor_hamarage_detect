@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+ 
+    <title>With Tumor in Brain</title>
+ 
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+ 
+        .card-style {
+            background-color: #dcdcdc;
+ 
+        }
+ 
+        .content {
+            padding: 15px;
+            color: white;
+            background-color: rgb(153, 156, 150);
+            /* font-size: 1rem; */
+        }
+ 
+        @media (max-width: 430px) and (min-width: 200px) {
+ 
+            .contents {
+                font-size: 0.6rem;
+                color: chartreuse;
+            }
+ 
+            .content-h1 {
+ 
+                font-size: 1rem;
+            }
+        }
+ 
+        .border img {
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+    <div>
+        <img src="static\images\brain9.jpg" class="w3-border w3-padding" alt="Kalam Sardar AI PVT LTD"
+            style="width:100%">
+    </div>
+ 
+    <div class="container my-2">
+        <div class="row mb-5">
+ 
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                    <!-- <img src="{{pred_output}}" alt="User Image" class="img-thumbnail"> -->
+ 
+                </span>
+            </div>
+ 
+            <div class="col-sm">
+ 
+                <div>
+                    <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+ 
+           
+                <h3 style="line-height: 100%;">The Model Predicts that the patient has  brain tumor on the basis of the Brain MRI Report. Please not to be panic, Consult the Doctor(Neurologist)</br> </br> 
+                    মডেল ভবিষ্যদ্বাণী করে যে ব্রেন এমআরআই রিপোর্টের ভিত্তিতে রোগীর মস্তিষ্কের টিউমার রয়েছে। আতঙ্কিত হবেন না, ডাক্তারের সাথে পরামর্শ করুন (স্নায়ু বিশেষজ্ঞ)</br> </br>
+                  
+मॉडल भविष्यवाणी करता है कि ब्रेन एमआरआई रिपोर्ट के आधार पर मरीज को ब्रेन ट्यूमर है। कृपया घबराएं नहीं, डॉक्टर से सलाह लें (न्यूरोलॉजिस्ट)  </br> </br></h3>
+                <hr class="w-100 mx-auto ">
+            </div>
+        </div>
+ 
+        <h1> Causes of Brain Tumor </h1>
+        <p>Brain tumors are thought to arise when certain genes on the chromosomes of a cell are damaged and no longer function properly. These genes normally regulate the rate at which the cell divides (if it divides at all) and repair genes that fix defects of other genes, as well as genes that should cause the cell to self-destruct if the damage is beyond repair. In some cases, an individual may be born with partial defects in one or more of these genes. Environmental factors may then lead to further damage. In other cases, the environmental injury to the genes may be the only cause. It is not known why some people in an "environment" develop brain tumors, while others do not.
+
+Once a cell is dividing rapidly and internal mechanisms to check its growth are damaged, the cell can eventually grow into a tumor. Another line of defense may be the body's immune system, which optimally would detect the abnormal cell and kill it. Tumors may produce substances that block the immune system from recognizing the abnormal tumor cells and eventually overpower all internal and external deterrents to its growth.
+
+A rapidly growing tumor may need more oxygen and nutrients than can be provided by the local blood supply intended for normal tissue. Tumors can produce substances called angiogenesis factors that promote the growth of blood vessels. The new vessels that grow increase the supply of nutrients to the tumor, and, eventually, the tumor becomes dependent on these new vessels. Research is being done in this area, but more extensive research is necessary to translate this knowledge into potential therapies.</p>
+   
+        <p>কোষের ক্রোমোজোমের নির্দিষ্ট জিনগুলি ক্ষতিগ্রস্থ হয়ে গেলে এবং সঠিকভাবে কাজ করে না, তখন মস্তিষ্কের টিউমারগুলি উত্থিত হবে বলে মনে করা হয়। এই জিনগুলি সাধারণত কোষটি বিভাজন করে এমন হার নিয়ন্ত্রণ করে (যদি এটি বিভাজকভাবে বিভক্ত হয়) এবং অন্যান্য জিনের ত্রুটিগুলি স্থির করে এমন জিনগুলি মেরামত করে, সেইসাথে ক্ষতিগ্রস্থদের সংস্কারের বাইরে থাকলে যদি জিনগুলি কোষকে স্ব-ক্ষতিগ্রস্থ করে তোলে। কিছু ক্ষেত্রে, এই জিনগুলির মধ্যে এক বা একাধিক আংশিক ত্রুটিযুক্ত ব্যক্তি জন্মগ্রহণ করতে পারে। পরিবেশগত কারণগুলি এরপরে আরও ক্ষতি হতে পারে। অন্যান্য ক্ষেত্রে, জিনগুলিতে পরিবেশগত আঘাতের একমাত্র কারণ হতে পারে। এটি "পরিবেশে" কিছু লোকের মস্তিষ্কের টিউমারগুলি কেন বিকশিত হয় তা জানা যায় না, অন্যরা তা করে না।
+
+একবার যখন কোনও কোষ দ্রুত বিভাজন করে এবং এর বৃদ্ধি ক্ষতিগ্রস্থ হয় তা পরীক্ষা করার জন্য অভ্যন্তরীণ প্রক্রিয়াগুলি পরে, কোষটি শেষ পর্যন্ত টিউমারে পরিণত হতে পারে। প্রতিরক্ষা আরেকটি লাইন শরীরের প্রতিরোধ ব্যবস্থা হতে পারে, যা সর্বোত্তমভাবে অস্বাভাবিক কোষটি সনাক্ত করে এটি মেরে ফেলবে। টিউমারগুলি এমন পদার্থ তৈরি করতে পারে যা প্রতিরোধ ব্যবস্থাটিকে অস্বাভাবিক টিউমার কোষগুলি সনাক্ত করতে বাধা দেয় এবং অবশেষে সমস্ত অভ্যন্তরীণ এবং বহিরাগত প্রতিরোধকে তার বিকাশে শক্তিশালী করে।
+
+একটি দ্রুত বর্ধমান টিউমারকে সাধারণ টিস্যুর জন্য স্থানীয় রক্ত ​​সরবরাহ সরবরাহের চেয়ে বেশি অক্সিজেন এবং পুষ্টির প্রয়োজন হতে পারে। টিউমারগুলি অ্যানজিওজেনেসিস ফ্যাক্টর নামক পদার্থ তৈরি করতে পারে যা রক্তনালীগুলির বৃদ্ধি প্রচার করে। যে নতুন জাহাজগুলি বৃদ্ধি পায় সেগুলি টিউমারের পুষ্টির সরবরাহ বাড়ায় এবং শেষ পর্যন্ত টিউমারটি এই নতুন জাহাজের উপর নির্ভরশীল হয়ে ওঠে। এই অঞ্চলে গবেষণা চলছে, তবে এই জ্ঞানের সম্ভাব্য থেরাপিতে অনুবাদ করার জন্য আরও বিস্তৃত গবেষণা প্রয়োজন।</p>
+        <p>ब्रेन ट्यूमर तब उत्पन्न होता है जब किसी कोशिका के गुणसूत्रों पर कुछ जीन क्षतिग्रस्त हो जाते हैं और ठीक से काम नहीं करते हैं। ये जीन सामान्य रूप से उस दर को नियंत्रित करते हैं जिस पर कोशिका विभाजित होती है (यदि यह बिल्कुल विभाजित होती है) और अन्य जीनों के दोषों को ठीक करने वाले जीन की मरम्मत करते हैं, साथ ही ऐसे जीन जो क्षति की मरम्मत से परे होने पर कोशिका को आत्म-विनाश का कारण बनते हैं। कुछ मामलों में, एक व्यक्ति इनमें से एक या अधिक जीनों में आंशिक दोषों के साथ पैदा हो सकता है। पर्यावरणीय कारक तब और नुकसान पहुंचा सकते हैं। अन्य मामलों में, जीन को पर्यावरणीय क्षति ही एकमात्र कारण हो सकती है। यह ज्ञात नहीं है कि "वातावरण" में कुछ लोग ब्रेन ट्यूमर क्यों विकसित करते हैं, जबकि अन्य नहीं करते हैं।
+
+एक बार जब एक कोशिका तेजी से विभाजित हो रही है और इसके विकास को रोकने के लिए आंतरिक तंत्र क्षतिग्रस्त हो जाते हैं, तो कोशिका अंततः एक ट्यूमर में विकसित हो सकती है। रक्षा की एक और पंक्ति शरीर की प्रतिरक्षा प्रणाली हो सकती है, जो असामान्य रूप से असामान्य कोशिका का पता लगा लेगी और उसे मार देगी। ट्यूमर ऐसे पदार्थ उत्पन्न कर सकते हैं जो प्रतिरक्षा प्रणाली को असामान्य ट्यूमर कोशिकाओं को पहचानने से रोकते हैं और अंततः इसके विकास के लिए सभी आंतरिक और बाहरी बाधाओं को प्रबल करते हैं।
+
+तेजी से बढ़ने वाले ट्यूमर को सामान्य ऊतक के लिए स्थानीय रक्त आपूर्ति द्वारा प्रदान की जाने वाली ऑक्सीजन और पोषक तत्वों की तुलना में अधिक ऑक्सीजन और पोषक तत्वों की आवश्यकता हो सकती है। ट्यूमर एंजियोजेनेसिस कारक नामक पदार्थ उत्पन्न कर सकते हैं जो रक्त वाहिकाओं के विकास को बढ़ावा देते हैं। नई वाहिकाएँ जो बढ़ती हैं, ट्यूमर को पोषक तत्वों की आपूर्ति में वृद्धि करती हैं, और अंततः, ट्यूमर इन नए जहाजों पर निर्भर हो जाता है। इस क्षेत्र में अनुसंधान किया जा रहा है, लेकिन इस ज्ञान को संभावित उपचारों में बदलने के लिए और अधिक व्यापक शोध की आवश्यकता है।</p>
+       
+    </div>
+ 
+    <section>
+ 
+        <div class="container">
+            <h1 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 content-h1">
+                SOME IMAGES OF HUMAN BRAIN TUMOR AND SOME SYMPTOMS</h1>
+        </div>
+ 
+        <div class="container">
+ 
+            <div class="card-columns">
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="static\images\tumor1.jpg" alt="">
+                        <h3 class="card-text">Nausea</h3>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="static\images\tumor2.jpg" alt="">
+                        <h3 class="card-text">Vision changes</h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px" class="img-fluid" src="static\images\tumor3.jpg" alt="">
+                        <h3 class="card-text">Hearing changes</h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="static\images\tumor4.jpg" alt="">
+                        <h3 class="card-text">Headaches</h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="static\images\tumor5.jpg" alt="">
+                        <h3 class="card-text">Facial numbness</h3>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <img style="border-radius: 10px;" class="img-fluid" src="static\images\tumor6.jpg" alt="">
+                        <h3 class="card-text">Seizures </h3>
+                    </div>
+                </div>
+ 
+            </div>
+ 
+            <!-- <div class="container-fluid contents"> -->
+            <h5 style="padding: 15px; background-color: rgb(153, 156, 150); color: white;"
+                class="text-center my-3 contents">
+                Email:kalamsardar2001@gmail.com(MOB:-7478748822)</h5>
+            <!-- </div> -->
+        </div>
+ 
+    </section>
+ 
+</body>
+ 
+</html>
